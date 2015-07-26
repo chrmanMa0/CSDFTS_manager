@@ -3,6 +3,13 @@ The CSDFTS manager is an tool for providing batch run functionality when using t
 It takes a set of parameter ranges and generates template files for the ranges in question
 and batch executes each template on a separate process up to the max number of processes.
 
+## Prerequisites
+Python 2.7+
+pyyaml 
+
+    sudo apt-get install python-yaml
+
+
 ## Installing
 To install the software just execute
 
