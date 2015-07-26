@@ -8,18 +8,20 @@ blocks for that choice (pH Model Nanoparticles for instance).
 
 ##Global Parameters
 Currently the following are the global parameters:
-Model Type: NLPB, MPB1, MPB2, PM, SPM
-Solute: Sphere, Cylinder, Nanochannel, Plate
-pH Model: Nanoparticles, Proteins, None
-Resolution: Float
-Type Tolerance: Float
-Multigrid Approach: TF
-Density Profile Out: TF
-Electrostatic Potential Out: TF
-Ion Contribution Out: TF
-Pressure Out: TF
-Integrated Charge Out: TF
-pH Out: TF
+Parameter Name             | Options
+---------------            | ------------
+Model Type                 | NLPB, MPB1, MPB2, PM, SPM
+Solute                     | Sphere, Cylinder, Nanochannel, Plate
+pH Model                   | Nanoparticles, Proteins, None
+Resolution                 | Float
+Type Tolerance             | Float
+Multigrid Approach         | T/F
+Density Profile Out        | T/F
+Electrostatic Potential Out| T/F
+Ion Contribution Out       | T/F
+Pressure Out               | T/F
+Integrated Charge Out      | T/F
+pH Out                     | T/F
 
 ##Model Specific Parameters
 These are definitions for parameter blocks for pH model, and the numerical model types.
