@@ -28,11 +28,16 @@ pH Out                     | T/F
 These are definitions for parameter blocks for pH model, and the numerical model types.
 
 ###pH Model
+Currently only going to do Nanoparicle and None, and obviously None 
+requires no further configuration.  The configuration parameters for a
+nanoparticle block would be: 
+
 Parameter Name | Type | Description
 ---------------|------|-------------
 pH Min         | Float| The minimum pH value for run
 pH Max         | Float| The maximum pH value for run
 pH Stride      | Float| The increment value for going from min to max pH
-
-
+pKA            | Float| The desired pKA
+pKB            | Float| the desired pKB
+Ntotal         | Float| The desired Ntotal
 
