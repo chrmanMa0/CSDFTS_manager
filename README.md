@@ -4,12 +4,15 @@ It takes a set of parameter ranges and generates template files for the ranges i
 and batch executes each template on a separate process up to the max number of processes.
 
 ## Installing
-To install the software just execute 
+To install the software just execute
+
     git clone https://github.com/chrmanMa0/CSDFTS_manager.git
+
 from the dirctory where you would like to install the project.
 For instance, if you keep all of your projects in `~/workspaces` you would change
 to the workspaces directory and execute the above command.  You might then have a
 directory structure that looks something like
+
     .
     ├── CSDFTS_manager
     │   ├── .git
