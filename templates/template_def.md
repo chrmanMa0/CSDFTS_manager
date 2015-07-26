@@ -8,8 +8,9 @@ blocks for that choice (pH Model Nanoparticles for instance).
 
 ##Global Parameters
 Currently the following are the global parameters:
+
 Parameter Name             | Options
----------------            | ------------
+---------------------------| ------------
 Model Type                 | NLPB, MPB1, MPB2, PM, SPM
 Solute                     | Sphere, Cylinder, Nanochannel, Plate
 pH Model                   | Nanoparticles, Proteins, None
