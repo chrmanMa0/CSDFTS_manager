@@ -30,6 +30,6 @@ class GlobalConfigTestCase(unittest.TestCase):
         stream = file(filename, 'r')
         test_load_config = yaml.load(stream)
         self.assertEqual(self.scratch_global_config, test_load_config)
-        print test_load_config
+
 if __name__ == '__main__':
     unittest.main()

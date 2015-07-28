@@ -34,10 +34,13 @@ class GlobalConfig:
     def store(self, filename):
         stream = file(filename, 'w')
         yaml.dump(self, stream)
-        print yaml.dump(self)
 
-    #def __eq__(self, other):
-    #    return self.__dict__ == other.__dict__
+    def __eq__(self, other):
+        try:
+
+            return self.__dict__ == other.__dict__
+        except AttributeError:
+            return False
 
     def __str__(self):
         return str(self.__dict__)
